@@ -1,7 +1,7 @@
 # Frontend-downloader
 
 
-## Change Index File
+## Change index.js File
 ```js
  let websiteURL = ""; // website URL goes here
 ```
