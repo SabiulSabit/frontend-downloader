@@ -7,7 +7,7 @@ scrape({
     return url.indexOf(websiteURL) === 0;
   },
   recursive: true,
-  maxDepth: 20,
+  maxDepth: 20, //increase the depth value if the website is huge
   prettifyUrls: true,
   filenameGenerator: "bySiteStructure",
   directory: "./node-website",
